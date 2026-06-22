@@ -29,7 +29,10 @@ app.use(express.urlencoded({ extended: true }));
 const corsOptions = {
     origin: [
         'http://localhost:5173',
-        'http://localhost:5174'
+        'http://localhost:5174',
+        'https://blog-app-client-jet.vercel.app/',
+        'https://blog-app-client-git-master-vincent-paul-nacor-s-projects.vercel.app/',
+        'https://blog-app-client-l8cpgmxq0-vincent-paul-nacor-s-projects.vercel.app/'
     ],
     credentials: true,
     optionSuccessStatus: 200
